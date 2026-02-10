@@ -235,7 +235,7 @@ template:
           {% if last_ex is none %}
             false
           {% else %}
-            {{ (now() - last_ex) > timedelta(days=7) }}
+            {{ (now() - last_ex) > timedelta(days=8) }}
           {% endif %}
 ```
 
@@ -244,5 +244,6 @@ template:
 If you encounter a new CSS selector or a change in the Cummins portal, please feel free to open an Issue or a Pull Request.
 
 ## Final Word
+
 
 I had an interesting time trying to cobble a solution with Python ```requests```. Google's AI assistant Gemini helped me to get so far and then stonewalled me. I asked Gemini why. You can read about it here: ```https://www.wareed.ca/blog/an-ai-stonewall```
