@@ -172,7 +172,7 @@ If the ```last_updated``` date grow to 25 hours or more, Home Assistant lets me 
 
 Changing the ```last_updated``` value in ```test_str``` to a date at least 25 hours previously and sending this adjusted JSON string to Home Assistant lets you test that you can see the conditional card.
 
-If the last generator's last exercise date is more than a week ago, Home Assistant let's me know that the generator has missed an  automatic, self-diagnostic test run.
+If the last generator's last exercise date is more than a week ago, Home Assistant lets me know that the generator has missed an  automatic, self-diagnostic test run.
 
 ![alt text](exercise-overdue.png)
 
@@ -247,3 +247,4 @@ If you encounter a new CSS selector or a change in the Cummins portal, please fe
 
 
 I had an interesting time trying to cobble a solution with Python ```requests```. Google's AI assistant Gemini helped me to get so far and then stonewalled me. I asked Gemini why. You can read about it here: ```https://www.wareed.ca/blog/an-ai-stonewall```
+
